@@ -2,7 +2,8 @@
 # thought process: use hash/dictionary
 # add any key with val (count) of 3 to results array
 # sort results (if required) and return the array
-
+# time complexity O(n) (iterate through all numbers in big array 3*n -> n) + O(n'log(n'))(sorting results array)
+# but because n' should be smaller than n the results 
 def millions_of_numbers(ary1, ary2, ary3):
   nums = ary1 + ary2 + ary3
   my_dict = {}
